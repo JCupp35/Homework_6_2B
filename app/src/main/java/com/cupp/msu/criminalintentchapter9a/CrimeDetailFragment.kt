@@ -30,7 +30,8 @@ private var _binding : FragmentCrimeDetailBinding? = null
             UUID.randomUUID(),
             title = "",
             date = Date(),
-            isSolved = false
+            isSolved = false,
+            requiresPolice = false
 
         )
     }

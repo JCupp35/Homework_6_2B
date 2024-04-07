@@ -40,7 +40,7 @@ class CrimeListFragment : Fragment() {
             binding.crimeRecyclerView.layoutManager = LinearLayoutManager(context)
 
             val crimes = crimeListViewModel.crimes
-            val adapter = CrimeHolder.CrimeListAdapter(crimes)
+            val adapter = CrimeHolder.CrimeHolderPolice.CrimeListAdapter(crimes)
             binding.crimeRecyclerView.adapter = adapter
 
             return binding.root
